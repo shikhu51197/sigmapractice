@@ -1,0 +1,208 @@
+.footer-1{
+   background-color: rgb(161, 161, 209);
+
+
+}
+
+#title-1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    -ms-text-combine-horizontal: all;
+}
+
+#subtitle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#email{
+    margin-left: 645px;
+    margin-top: 0px;
+
+}
+
+#button{
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: none;
+}
+
+.footer-2{
+    background-color: rgb(25, 25, 25);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#logo{
+    margin-left: 700px;
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+#icon{
+    margin-left: 630px;
+    margin-top: 10px;
+
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.youtube{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.pintrest{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+a:hover{
+    background-color: rgb(76, 63, 63);
+}
+
+hr.top{
+    border-top: 4px solid rgb(224, 220, 220);
+}
+
+hr.bottom{
+    border-bottom: 4px solid rgb(232, 230, 230);
+}
+
+.links{
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 120px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+#one{
+    word-spacing: 2px;
+    color: #e86363;
+}
+
+#two{
+    word-spacing: 2px;
+    color: #e86363;
+}
+
+#three{
+    word-spacing: 2px;
+    color: #e86363;
+}
+
+#returns{
+    color: #e86363;
+}
+
+#faqs{
+    color: #e86363;
+}
+
+a:link{
+    text-decoration: none;
+    text-emphasis-color: white;
+}
+
+.contact-info{
+   display: flex;
+}
+
+h2{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: 15px;
+    color: white;
+}
+
+.contact{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.support{
+    text-align: center;
+    margin-left: 300px;
+}
+
+.career{
+    text-align: right;
+    margin-left: 150px;
+    color: white;
+}
+
+.app{
+    display: flex;
+    align-content: center;
+    margin-left: 10px;
+
+}
+
+h2{
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: white;
+}
+
+.offer{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 200;
+    margin-top: 2px;
+    color: white;
+}
+
+.image-1{
+    width: 200px;
+    height: 100px;
+}
+
+.image-2{
+    width: 205px;
+    height: 100px;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+
+
