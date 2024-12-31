@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Products</title>
+    <link rel="stylesheet" href="Scooty.css">
+</head>
+
+<body>
+
+    <div class="spcontainer">
+        <h1 class="sph1">Scooty Products</h1>
+
+        <!-- Filter and Sort Controls -->
+        <div class="spcontrols">
+            <label for="filter">Filter by Brand:</label>
+            <select id="filter" onchange="filterCars()">
+                <option value="">All Brands</option>
+                <option value="TVS">TVS</option>
+                <option value="OLA">OLA</option>
+                <option value="Chetak">Chetak</option>
+                <option value="Honda">Honda</option>
+            </select>
+
+            <label for="sort">Sort by Price:</label>
+            <select id="sort" onchange="sortCars()">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Car Product Grid -->
+        <div class="spproduct-grid">
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/Honda Activa.jpg" alt="Honda Activa">
+                <h3>Honda Activa</h3>
+                <p class="price">94,341</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/jupiter-3-96.jpg" alt="TVS Jupiter">
+                <h3>TVS Jupiter</h3>
+                <p class="price">78,175</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/TVS Ntorq 125.jpg" alt="TVS Ntorq 125">
+                <h3>TVS Ntorq 125</h3>
+                <p class="price">68,483</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/Hero Pleasure.jpg" alt="Hero Pleasure">
+                <h3>Hero Pleasure</h3>
+                <p class="price">77,427</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/OLA S1 Pro.jpg" alt="OLA S1 Pro">
+                <h3>OLA S1 Pro</h3>
+                <p class="price">1,29,999</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/TVS iQube Electric.jpg" alt="TVS iQube Electric">
+                <h3>TVS iQube Electric</h3>
+                <p class="price">93,089</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/Honda Activa 125.jpg" alt="Honda Activa 125">
+                <h3>Honda Activa 125</h3>
+                <p class="price">61,074</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/Hero Destini.jpg" alt="Hero Destini">
+                <h3>Hero Destini</h3>
+                <p class="price">75,969</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/download (1).jpg" alt="Hero Maestro">
+                <h3>Hero Maestro</h3>
+                <p class="price">87,062</p>
+                <button class="sp_button">See more details</button>
+            </div>
+            <div class="spproduct">
+                <img src="/sigmapractice/Scooty images/Chetak.jpg" alt="Chetak">
+                <h3>Chetak</h3>
+                <p class="price">1,58,198</p>
+                <button class="sp_button">See more details</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
