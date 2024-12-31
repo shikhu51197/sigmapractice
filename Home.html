@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Wheels</title>
+    <link rel="stylesheet" href="/sigmapractice/Home.css" />
+  </head>
+  <body>
+    <div id="nav_bar"></div>
+    <!-- Navigation Bar-->
+    <div id="landing_card">
+      <h1>Welcome to Swiss Wheels!</h1>
+      <h4>
+        Here, you can find any Automotive of your desire. The Only <br />thing
+        that you need to do is search what you need <br />& grab it
+      </h4>
+      <a href="#product_card"><button>Explore More</button></a>
+    </div>
+    <div id="slider_box">
+      <div class="slider-container">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <img src="https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile1/hyundai_creta/images/colour_hyundai-creta_atlas-white_600x400.jpg" alt="Car_1" />
+            </div>
+            <div class="slide">
+              <img src="https://img.gaadicdn.com/images/car-images/630x420/Tata/Harrier/9368/1703308605356/224_lunar-white_b2b2b2.jpg" alt="Car_2" />
+            </div>
+            <div class="slide">
+              <img
+                src="https://tyrepoint.pk/wp-content/uploads/2019/03/Toyota-Fortuner-tyrepoint.pk-1.jpg"
+                alt="Car_3"
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/1056x660/n/rskpp0b_1638613.jpg?q=80"
+                alt="Car_4"
+              />
+            </div>
+          </div>
+          <div class="l_nav">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <script>
+          const slider = document.querySelector(".slider");
+          const slides = document.querySelectorAll(".slide");
+          const prevButton = document.querySelector(".prev");
+          const nextButton = document.querySelector(".next");
+          const dots = document.querySelectorAll(".dot");
+
+          let currentIndex = 0;
+          let interval;
+
+          function updateSlider() {
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+              dot.classList.toggle("active", index === currentIndex);
+            });
+          }
+
+          function showPrevSlide() {
+            currentIndex =
+              currentIndex > 0 ? currentIndex - 1 : slides.length - 1;
+            updateSlider();
+          }
+
+          function showNextSlide() {
+            currentIndex =
+              currentIndex < slides.length - 1 ? currentIndex + 1 : 0;
+            updateSlider();
+          }
+
+          function startAutoSlide() {
+            interval = setInterval(() => {
+              showNextSlide();
+            }, 3000);
+          }
+
+          function stopAutoSlide() {
+            clearInterval(interval);
+          }
+
+          prevButton.addEventListener("click", () => {
+            stopAutoSlide();
+            showPrevSlide();
+            startAutoSlide();
+          });
+
+          nextButton.addEventListener("click", () => {
+            stopAutoSlide();
+            showNextSlide();
+            startAutoSlide();
+          });
+
+          dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+              stopAutoSlide();
+              currentIndex = index;
+              updateSlider();
+              startAutoSlide();
+            });
+          });
+
+          startAutoSlide();
+          updateSlider();
+        </script>
+      </div>
+    </div>
+    <div id="product_container">
+      <div id="product_card">
+        <div id="itm_1" class="itm">
+          <img src="/sigmapractice/Slider_Images/Car.png" alt="Car_Image" />
+          <p>Car</p>
+          <a href=""><button>Get More Details</button></a>
+        </div>
+        <div id="itm_2" class="itm">
+          <img src="/sigmapractice/Slider_Images/bike.png" alt="Bike_Image" />
+          <p>Bike</p>
+          <a href=""><button>Get More Details</button></a>
+        </div>
+        <div id="itm_3" class="itm">
+          <img
+            src="/sigmapractice/Slider_Images/scooter.png"
+            alt="Scooty_Image"
+          />
+          <p>Scooty</p>
+          <a href=""><button>Get More Details</button></a>
+        </div>
+        <div id="itm_4" class="itm">
+          <img
+            src="/sigmapractice/Slider_Images/bicycle.png"
+            alt="Bicycle_Image"
+          />
+          <p>Bicycle</p>
+          <a href=""><button>Get More Details</button></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
