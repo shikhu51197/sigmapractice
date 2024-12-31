@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bpbody {
+    font-family: Arial, sans-serif;
+    background-color: #0affd6;
+    padding: 20px;
+}
+
+.bpcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bph1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bpcontrols {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bpcontrols label {
+    margin-right: 10px;
+}
+#filter{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.bpproduct-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.bpproduct {
+    border: 1px solid #070707;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.bpproduct img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.bpproduct h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.bpproduct p {
+    font-size: 1em;
+    color: #000000;
+}
+
+.bpproduct .carprice {
+    font-size: 1.4em;
+    color: #6c1806;
+}
+
+.bpbutton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.bpbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.bpcontainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20 px;
+    background-color: rgb(246, 248, 248);
+    box-shadow:10px rgba(0, 0, 0, 0.1);
+}
+
+.bph1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bpproduct-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.bpproduct {
+    border: 1px solid #0e0d0d;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.bpproduct img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bpproduct h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.bpproduct p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.bpproduct .price {
+    font-size: 1.4em;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.bp_button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 166px;
+    height: 26px;
+}
+.bp_button:hover{
+    color: rgb(229, 234, 238);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}

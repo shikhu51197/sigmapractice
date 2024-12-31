@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Products</title>
+    <link rel="stylesheet" href="cycle.css">
+</head>
+
+<body>
+
+    <div class="cy_container">
+        <h1 class="cy_h1">Cycle Product</h1>
+
+        <!-- Filter and Sort Controls -->
+        <div class="cy_controls">
+            <label for="filter">Filter by Brand:</label>
+            <select id="filter" onchange="filterCars()">
+                <option value="">All Brands</option>
+                <option value="Hero">Hero</option>
+                <option value="Hercules">Hercules</option>
+                <option value="Atlas">Atlas</option>
+                <option value="Mach city">Mach city</option>
+                <option value="British eagle">British eagle</option>
+            </select>
+
+            <label for="sort">Sort by Price:</label>
+            <select id="sort" onchange="sortCars()">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Car Product Grid -->
+        <div class="cy_product-grid">
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/Hercules cycle roadeo.jpg" alt="Hercules cycle roadeo">
+                <h3>Hercules cycle roadeo</h3>
+                <p class="price">8,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/Atlas cycle peak 26.jpg" alt="Atlas cycle peak">
+                <h3>Atlas cycle peak</h3>
+                <p class="price">6,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/hero.jpg" alt="Hero sprint">
+                <h3>Hero sprint</h3>
+                <p class="price">8,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/mach city.jpg" alt="Mach city">
+                <h3>Mach city</h3>
+                <p class="price">10,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/Avon cycle.jpg" alt="Avon cycle">
+                <h3>Avon cycle</h3>
+                <p class="price">7,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/la soverign cyle.jpg" alt="La soverign cycle">
+                <h3>La soverign cycle</h3>
+                <p class="price">15,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/firebox cycle.jpg" alt="Firebox cycle">
+                <h3>Firebox cycle</h3>
+                <p class="price">16,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/mech city gear.jpg" alt="Mach city gear">
+                <h3>Mach city gear</h3>
+                <p class="price">18,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/british eagle.jpg" alt="British eagle gear">
+                <h3>British eagle gear</h3>
+                <p class="price">17,500</p>
+                <button class="cy_button">See more details</button>
+            </div>
+            <div class="cy_product">
+                <img src="/sigmapractice/cycleimg/Herculues gear cycle.jpg" alt="Herculues cycle gear">
+                <h3>Herculues cycle gear</h3>
+                <p class="price">16,000</p>
+                <button class="cy_button">See more details</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
