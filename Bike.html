@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Products</title>
+    <link rel="stylesheet" href="Bike.css">
+</head>
+
+<body>
+
+    <div class="bpcontainer">
+        <h1 class="bph1">Bike Product</h1>
+
+        <!-- Filter and Sort Controls -->
+        <div class="bpcontrols">
+            <label for="filter">Filter by Brand:</label>
+            <select id="filter" onchange="filterCars()">
+                <option value="">All Brands</option>
+                <option value="Bajaj">Bajaj</option>
+                <option value="kawasaki">kawasaki</option>
+                <option value="tvs">tvs</option>
+                <option value="Honda">Honda</option>
+                <option value="Royal enfield">Royal enfield</option>
+            </select>
+
+            <label for="sort">Sort by Price:</label>
+            <select id="sort" onchange="sortCars()">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Car Product Grid -->
+        <div class="bpproduct-grid">
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/mt15 v2.jpg" alt="mt15">
+                <h3>Mt 15</h3>
+                <p class="price">2.00 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/tvs r.jpg" alt="tvs 125">
+                <h3>Tvs 125</h3>
+                <p class="price">1.50 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/hf.jpg" alt="Hf deluxe">
+                <h3>Hf deluxe</h3>
+                <p class="price">1.11 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/gixxer sf 150.jpg" alt="Gixxer sf 150">
+                <h3>Gixxer sf 150</h3>
+                <p class="price">1.60 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/hounda.jpg" alt="honda debut 180">
+                <h3>Honda debut 180</h3>
+                <p class="price">1.50 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/kawasaki zx10r.jpg" alt="kawasaki zx10r">
+                <h3>kawasaki zx10r</h3>
+                <p class="price">14.50 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/slp 1.jpg" alt="hero splendor">
+                <h3>Hero splendor</h3>
+                <p class="price">1.00 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/images (1).jpg" alt="pulsar ns 200">
+                <h3>Pulsar ns 200</h3>
+                <p class="price">2.00 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/gt 650.jpg" alt="bullet gt 650">
+                <h3>Bullet gt 650</h3>
+                <p class="price">4.50 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+            <div class="bpproduct">
+                <img src="/sigmapractice/Bikeimg/download (2).jpg" alt="kawasaki ninja h2r">
+                <h3>kawasaki ninja h2r</h3>
+                <p class="price">36.2 lakh</p>
+                <button class="bp_button">See more details</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

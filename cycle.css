@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.cy_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cy_h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cy_controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cy_controls label {
+    margin-right: 10px;
+}
+#filter {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.cy_product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.cy_product {
+    border: 1px solid #080808;
+    border-radius: 1px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cy_product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cy_product h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.cy_product p {
+    font-size: 1em;
+    color: #000000;
+}
+
+.cy_product .carprice {
+    font-size: 1.4em;
+    color: #8b0505;
+}
+
+.cy_button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}   
+
+.cy_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfefc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cy_h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cy_product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.cy_product {
+    border: 1px solid #090808;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.cy_product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cy_product h3 {
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.cy_product p {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.cy_product .price {
+    font-size: 1.4em;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cy_button {
+    color: rgb(229, 234, 238);
+    background-color: rgb(7, 7, 7);
+    width: 166px;
+    height: 26px;
+}
+.cy_button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
