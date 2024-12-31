@@ -1,10 +1,8 @@
 .footer-1{
-   background-color: rgb(161, 161, 209);
-
-
+   background-color: rgb(210, 210, 213);
 }
 
-#title-1{
+#footitle-1{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: x-large;
@@ -12,24 +10,27 @@
     -ms-text-combine-horizontal: all;
 }
 
-#subtitle{
+#foosubtitle{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: lighter;
 }
 
-#email{
+#fooemail{
     margin-left: 645px;
     margin-top: 0px;
-
+    align-content: center;
+    font-size: larger;
+    font-family: sans-serif;
+    border-radius: 4px;
 }
 
-#button{
+#foobutton{
     border-radius: 30px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    margin-left: none;
+    font-size: large;
 }
 
 .footer-2{
@@ -40,41 +41,43 @@
     bottom: 0;
 }
 
-#logo{
+#foologo{
     margin-left: 700px;
     margin-top: 30px;
     height: 80px;
     width: 80px;
 }
 
-#icon{
-    margin-left: 630px;
+#fooicon{
+    margin-left: 634px;
     margin-top: 10px;
+    align-content: center;
 
 }
 
-.facebook{
+.foofacebook{
     width: 40px;
     height: 40px;
 }
 
-.instagram{
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-}
-
-.youtube{
+.fooinstagram{
     width: 40px;
     height: 40px;
     margin-left: 10px;
 }
 
-.pintrest{
+.fooyoutube{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.foopintrest{
     width: 45px;
     height: 45px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-top: 6px;
     align-self: center;
 }
 
@@ -82,15 +85,15 @@ a:hover{
     background-color: rgb(76, 63, 63);
 }
 
-hr.top{
+hr.footop{
     border-top: 4px solid rgb(224, 220, 220);
 }
 
-hr.bottom{
+hr.foobottom{
     border-bottom: 4px solid rgb(232, 230, 230);
 }
 
-.links{
+.foolinks{
     text-align: center;
     text-decoration: none;
     word-spacing: 120px;
@@ -100,26 +103,26 @@ hr.bottom{
     color: aliceblue;
 }
 
-#one{
+#fooone{
     word-spacing: 2px;
     color: #e86363;
 }
 
-#two{
+#footwo{
     word-spacing: 2px;
     color: #e86363;
 }
 
-#three{
+#foothree{
     word-spacing: 2px;
     color: #e86363;
 }
 
-#returns{
+#fooreturns{
     color: #e86363;
 }
 
-#faqs{
+#foofaqs{
     color: #e86363;
 }
 
@@ -128,18 +131,18 @@ a:link{
     text-emphasis-color: white;
 }
 
-.contact-info{
+.foocontact-info{
    display: flex;
 }
 
-h2{
+#fooh2{
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: white;
 }
 
-p{
+#foop{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
@@ -147,37 +150,36 @@ p{
     color: white;
 }
 
-.contact{
+.foocontact{
     text-align: left;
     margin-left: 20px;
 }
 
-.support{
+.foosupport{
     text-align: center;
     margin-left: 300px;
 }
 
-.career{
+.foocareer{
     text-align: right;
-    margin-left: 150px;
+    margin-left: 300px;
     color: white;
 }
 
-.app{
+.fooapp{
     display: flex;
     align-content: center;
     margin-left: 10px;
-
 }
 
-h2{
+.fooh2{
    font-size: x-large;
    font-family: 'Times New Roman', Times, serif;
    font-weight: bold;
    color: white;
 }
 
-.offer{
+.foooffer{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
@@ -186,14 +188,16 @@ h2{
     color: white;
 }
 
-.image-1{
+.fooimage-1{
     width: 200px;
     height: 100px;
+    margin-left: 50px;
 }
 
-.image-2{
+.fooimage-2{
     width: 205px;
     height: 100px;
+    margin-left: 30px;
 }
 
 .footer-copyright {
@@ -201,7 +205,6 @@ h2{
     font-size: 12px;
     color: #ffffff;
     text-align: center;
-
 }
 
 
