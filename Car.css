@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cpbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.cpcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cph1 {
+    text-align: center;
+}
+
+.cpcontrols {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cpcontrols label {
+    margin-right: 10px;
+}
+
+.cpselect {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.cpproduct-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cpproduct {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.cpproduct img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cpproduct h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.cpproduct p {
+    font-size: 1em;
+    color: #000000;
+}
+
+.cpproduct .carprice {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.cpbutton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.cpbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.cpcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cph1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cpproduct-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cpproduct {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.cpproduct img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cpproduct h3 {
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.cpproduct p {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.cpproduct .price {
+    font-size: 1.2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.cpbutton{
+    color: rgb(6, 10, 14);
+    background-color: rgb(255, 255, 255);
+    width: 166px;
+    height: 26px;
+}
+.cpbutton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}

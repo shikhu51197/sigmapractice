@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Products</title>
+    <link rel="stylesheet" href="Car.css">
+</head>
+
+<body>
+
+    <div class="cpcontainer">
+        <h1 class="cph1">Car Products</h1>
+
+        <!-- Filter and Sort Controls -->
+        <div class="cpcontrols">
+            <label for="filter">Filter by Brand:</label>
+            <select id="filter" onchange="filterCars()">
+                <option value="">All Brands</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Ford">Ford</option>
+                <option value="BMW">BMW</option>
+                <option value="Honda">Honda</option>
+                <option value="Maruti Suzuki">"Maruti Suzuki</option>
+            </select>
+
+            <label for="sort">Sort by Price:</label>
+            <select id="sort" onchange="sortCars()">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+        <!-- Car Product Grid -->
+        <div class="cpproduct-grid">
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/Toyota-Corolla-Altis-main-4.jpg" alt="Toyota Corolla">
+                <h3>Toyota Corolla</h3>
+                <p class="price">12.38 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/Used-2022-Ford-Mustang-GT-Premium-1713225192.jpg" alt="Ford Mustang">
+                <h3>Ford Mustang</h3>
+                <p class="price">74.61 lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/BMW X5.jpg" alt="BMW X5">
+                <h3>BMW X5</h3>
+                <p class="price">1.11 Crore</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/Honda Civic.jpg" alt="Honda Civic">
+                <h3>Honda Civic</h3>
+                <p class="price">22.36 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/toyota camry.jpg" alt="Toyota Camry">
+                <h3>Toyota Camry</h3>
+                <p class="price">46.24 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/maruti-suzuki-omni.jpeg" alt="Omni">
+                <h3>Omni</h3>
+                <p class="price">2.08 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/b577b0d1067c40118daab01e55e8d836.jpg" alt="BMW 3 Series">
+                <h3>BMW 3 Series</h3>
+                <p class="price">72.90 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/Honda Accord.jpg" alt="Honda Accord">
+                <h3>Honda Accord</h3>
+                <p class="price">44.28 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/images (2).jpg" alt="Toyota RAV4">
+                <h3>Toyota RAV4</h3>
+                <p class="price">35.00 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+            <div class="cpproduct">
+                <img src="/sigmapractice/Car Images/58499_2021_Maruti-Suzuki-Swift.jpg" alt="Swift">
+                <h3>Swift</h3>
+                <p class="price">10.68 Lakhs</p>
+                <button class="cpbutton">See more details</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
